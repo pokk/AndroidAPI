@@ -11,7 +11,7 @@ import java.lang.reflect.Method;
  * @version 0.0.2
  * @since 2015/08/01
  */
-public class Mylog
+public class MyLog
 {
     private static final String COLON = ":";
     private static final String LEFT_PARENTHESIS = "(";
@@ -103,7 +103,7 @@ public class Mylog
      */
     public static void v()
     {
-        Mylog.v(NULL_STRING);
+        MyLog.v(NULL_STRING);
     }
 
     /**
@@ -121,7 +121,7 @@ public class Mylog
      */
     public static void d()
     {
-        Mylog.d(NULL_STRING);
+        MyLog.d(NULL_STRING);
     }
 
     /**
@@ -139,7 +139,7 @@ public class Mylog
      */
     public static void i()
     {
-        Mylog.i(NULL_STRING);
+        MyLog.i(NULL_STRING);
     }
 
     /**
@@ -157,7 +157,7 @@ public class Mylog
      */
     public static void w()
     {
-        Mylog.w(NULL_STRING);
+        MyLog.w(NULL_STRING);
     }
 
     /**
@@ -185,7 +185,7 @@ public class Mylog
      */
     public static void e()
     {
-        Mylog.e(NULL_STRING);
+        MyLog.e(NULL_STRING);
     }
 
     /**
