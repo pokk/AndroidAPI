@@ -10,6 +10,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/httpmodule" />
             <option value="$PROJECT_DIR$/jsonparser" />
             <option value="$PROJECT_DIR$/mylog" />
           </set>
@@ -18,6 +19,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/httpmodule" />
             <option value="$PROJECT_DIR$/jsonparser" />
             <option value="$PROJECT_DIR$/mylog" />
           </set>

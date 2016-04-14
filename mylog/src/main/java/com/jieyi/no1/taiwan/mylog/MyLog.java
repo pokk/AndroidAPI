@@ -208,7 +208,7 @@ public class MyLog
     private static String getExceptionMsg(final Exception msg)
     {
         StringBuilder stringBuilder = new StringBuilder();
-        //        Stream.of(msg).forEach(str -> stringBuilder.append(str).append("\n"));
+        // Stream.of(msg).forEach(str -> stringBuilder.append(str).append("\n"));
         for (StackTraceElement str : msg.getStackTrace())
         {
             stringBuilder.append(str).append("\n");
