@@ -3,6 +3,7 @@ package com.jieyi.no1.taiwan.mylog;
 import android.util.Log;
 
 import java.lang.reflect.Method;
+import java.util.Arrays;
 
 /**
  * Log Module
@@ -208,10 +209,7 @@ public class MyLog
     private static String getExceptionMsg(final Exception msg)
     {
         StringBuilder stringBuilder = new StringBuilder();
-        for (StackTraceElement str : msg.getStackTrace())
-        {
-            stringBuilder.append(str).append("\n");
-        }
+        Arrays.stream(msg.getStackTrace()).forEach(str -> stringBuilder.append(str).append("\n"));
         return stringBuilder.toString();
     }
 
