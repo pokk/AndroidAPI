@@ -1,1 +1,1 @@
-include ':app', ':mylog', ':jsonparser', ':httpmodule'
+include ':app'
