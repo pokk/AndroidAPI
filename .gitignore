@@ -36,19 +36,12 @@ captures/
 
 # Intellij
 *.iml
-.idea/workspace.xml
 
 # Keystore files
 *.jks
 
-.idea/compiler.xml
-.idea/copyright/
-.idea/encodings.xml
-.idea/misc.xml
+.idea
 api.iml
 app/libs/
-app/src/androidTest/
 app/src/main/java/module/taiwan/
-app/src/main/res/drawable/
-app/src/test/
 gradle/wrapper/gradle-wrapper.jar
