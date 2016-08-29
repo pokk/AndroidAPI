@@ -43,5 +43,4 @@ captures/
 .idea
 api.iml
 app/libs/
-app/src/main/java/module/taiwan/
 gradle/wrapper/gradle-wrapper.jar
